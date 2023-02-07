@@ -23,7 +23,7 @@ jobs:
     steps:
       - run: ls
       - name: Setup Repository
-        uses: Sunwoo0110/IREM@v1.2.0
+        uses: Sunwoo0110/IREM@v1.2.1
         with:
           github-repo-url: ${{ inputs.github-repo-url }}
           github-user-id: ${{ inputs.github-user-id }}
